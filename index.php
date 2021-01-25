@@ -91,7 +91,7 @@ foreach($product_listing as $productlisting){
 							<span><span style='font-family:Arial;'>&#8377;</span><?php echo $productlisting['maximumRetailPrice']; ?></span>
 						</p>
 						<?php  } ?>
-						<?php if($productlisting['maximumRetailPrice']) {
+						<?php /*if($productlisting['maximumRetailPrice']) {
 							$amount = $productlisting['maximumRetailPrice'];
 							$from_Currency = 'USD';
 							$to_Currency = 'INR';
@@ -106,7 +106,7 @@ foreach($product_listing as $productlisting){
 						<p class="price-container">
 							<span><span style='font-family:Arial;'>&#8377;</span><?php echo $productlisting['maximumRetailPrice']; ?></span>
 						</p>
-						<?php  } ?>
+						<?php  }*/ ?>
 				</div>
 				<?php if($productlisting['productDescription']){  
 				if (strlen($productlisting['productDescription']) > 160) {
